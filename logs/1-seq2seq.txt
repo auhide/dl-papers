@@ -1,0 +1,8 @@
+Device: cuda
+Training Batch 0, Loss: 7.89
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> C' est à peu près tout ce qu' il te faut savoir . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> contente noire numéro numéro numéro numéro numéro numéro numéro films films films films films films films films films films films films
+----------------------------------------------------------------------------------------------------
+Epoch: 1, Training Loss: 3.56, Validation Loss: 3.39
