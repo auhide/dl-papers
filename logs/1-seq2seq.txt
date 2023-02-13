@@ -1,8 +1,246 @@
 Device: cuda
-Training Batch 0, Loss: 7.89
+Training Batch 0, Loss: 9.89
 Example
 ----------------------------------------------------------------------------------------------------
-Target: <start> C' est à peu près tout ce qu' il te faut savoir . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
-Prediction: <unk> contente noire numéro numéro numéro numéro numéro numéro numéro films films films films films films films films films films films films
+Target: <start> L' actrice que Tom apprécie le plus est Ellen Page . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> squatter tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau tableau
 ----------------------------------------------------------------------------------------------------
-Epoch: 1, Training Loss: 3.56, Validation Loss: 3.39
+Training Batch 150, Loss: 3.94
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je n' ai aucune idée à l' heure qu' il est . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> . . . . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 300, Loss: 3.41
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> J' aime le goût que ça <unk> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je Je . . . . . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 450, Loss: 3.58
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Il n' est pas en ville . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je Je est que . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 600, Loss: 3.05
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Rentres - tu chez toi en bus ? <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne est pas . . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 750, Loss: 3.17
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je leur donnerai une réponse demain . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est . . . <end> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 900, Loss: 3.30
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Ne le rendez pas plus difficile ! <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est de . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 1050, Loss: 3.17
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Il semble n' avoir aucun sens de l' humour . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne a pas . . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Epoch: 1, Training Loss: 2.91, Validation Loss: 3.37
+Training Batch 0, Loss: 3.04
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je déteste mon ordinateur . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est pas . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 150, Loss: 3.33
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> J' aimerais descendre au prochain arrêt . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est pas . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 300, Loss: 2.99
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Pourquoi voudrais -je ceci <unk> ? <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne est pas . <end> <end> <end> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 450, Loss: 3.00
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Ça va prendre quelques heures . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 600, Loss: 3.13
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Elle rendit un rapport oral à son patron . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 750, Loss: 2.93
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Elle est plus âgée que Tom . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne est pas . . <end> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 900, Loss: 3.04
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Ça fait des semaines qu' il essaye de te joindre . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est que pas . . <end> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 1050, Loss: 3.01
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Il reste à cet hôtel depuis cinq jours . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . <end> <end> <pad> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Epoch: 2, Training Loss: 3.13, Validation Loss: 3.16
+Training Batch 0, Loss: 2.97
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Elle est devenue médecin . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 150, Loss: 3.07
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Mes parents se disputent constamment . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est pas . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 300, Loss: 2.76
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Là se tenait une fille en pleurs . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . <end> . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 450, Loss: 3.16
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Il manque de pratique . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 600, Loss: 2.69
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> J' étudie le français . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est que pas . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 750, Loss: 2.99
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> La mère sépara les enfants en train de se battre . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est pas . . . . <end> <pad> . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 900, Loss: 2.68
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je lui ai parlé hier . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 1050, Loss: 3.02
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Y en a -t -il d' autres comme toi <unk> ? <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je n' que pas . <end> <pad> <pad> . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Epoch: 3, Training Loss: 2.80, Validation Loss: 2.84
+Training Batch 0, Loss: 3.02
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> C' est vraiment une belle journée aujourd'hui . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est que pas . <end> . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 150, Loss: 2.97
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Comment savez -vous où aller ? <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 300, Loss: 3.23
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> J' ai pris ton parapluie par erreur . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne est pas . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 450, Loss: 2.91
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je te souhaite du bonheur . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 600, Loss: 2.73
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> C' est la photographie de ma sœur cadette . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 750, Loss: 2.59
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Elle a divorcé après de longues années de tristesse . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est est pas . . <end> . . <end> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 900, Loss: 2.95
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Elle promit de ne le dire à personne . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je est que <end> <pad> . <end> <pad> <pad> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 1050, Loss: 2.63
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je pense qu' il y a quelque chose qui cloche . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne est pas . <end> <pad> . . <end> . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Epoch: 4, Training Loss: 2.61, Validation Loss: 2.66
+Training Batch 0, Loss: 3.00
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je ne le fais que pour ton bien . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . . . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 150, Loss: 2.85
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Dis à Tom que je ne suis pas à la maison . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne ai pas <end> <pad> . . <end> . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 300, Loss: 2.86
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Peu de gens pensent ainsi . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne a pas . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 450, Loss: 2.86
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Je veux gagner beaucoup d' argent . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 600, Loss: 2.88
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Ça a bien été durant une semaine . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 750, Loss: 2.89
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Pourquoi vos stores sont -ils fermés <unk> ? <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne que pas . . <end> <pad> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 900, Loss: 2.77
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Quelqu' un a dit que Tom nous cherche . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne est pas . <end> . . . <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Training Batch 1050, Loss: 2.77
+Example
+----------------------------------------------------------------------------------------------------
+Target: <start> Tous ces livres t' appartiennent -ils ? <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+Prediction: <unk> Je ne a pas . . <end> <end> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+----------------------------------------------------------------------------------------------------
+Epoch: 5, Training Loss: 2.52, Validation Loss: 2.68
