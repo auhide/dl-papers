@@ -8,3 +8,7 @@
 - BERT: Pretraining of Deep Bidirectional Transformers for Language Understanding
     - [Code](https://github.com/auhide/dl-papers/blob/main/notebooks/2.%20BERT%2C%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20%20Language%20Understanding.ipynb)
     - [Paper](https://arxiv.org/abs/1810.04805)
+
+- Improving Language Understanding with Generative Pre-Training
+    - [Code](https://github.com/auhide/dl-papers/blob/main/notebooks/3.%20Improving_Language_Understanding_with_GPT.ipynb)
+    - [Paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
