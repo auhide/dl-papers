@@ -17,3 +17,12 @@
 - Improving Language Understanding with Generative Pre-Training
     - [Code](https://github.com/auhide/dl-papers/blob/main/notebooks/3.%20Improving_Language_Understanding_with_GPT.ipynb)
     - [Paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
+## 3. Computer Vision
+- Improved Training of Wasserstein GANs
+    - [Code](https://www.kaggle.com/code/auhide/wgan-astronomical-images)
+    - [Paper](https://arxiv.org/pdf/1704.00028v3.pdf)
+
+- Progressive Growing of GANs For Improved Quality, Stability, And Variation
+    - [Code](https://www.kaggle.com/code/auhide/progan-for-astronomical-images)
+    - [Paper](https://arxiv.org/pdf/1710.10196.pdf)
